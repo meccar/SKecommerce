@@ -1,6 +1,0 @@
-﻿services:
-  skecommerce:
-    image: skecommerce
-    build:
-      context: .
-      dockerfile: Dockerfile
