@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Migrations\Seed\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Abp.AspNetCore.OpenIddict" Version="9.4.2" />
+      <PackageReference Include="Abp.Zero" Version="9.4.2" />
+      <PackageReference Include="Abp.ZeroCore" Version="9.4.2" />
+      <PackageReference Include="Abp.ZeroCore.EntityFrameworkCore" Version="9.4.2" />
+      <PackageReference Include="Abp.ZeroCore.OpenIddict" Version="9.4.2" />
+      <PackageReference Include="Abp.ZeroCore.OpenIddict.EntityFrameworkCore" Version="9.4.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SKecommerce.Core.Domain\SKecommerce.Core.Domain.csproj" />
+      <ProjectReference Include="..\Source\SKecommerce.Core.Shared\SKecommerce.Core.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

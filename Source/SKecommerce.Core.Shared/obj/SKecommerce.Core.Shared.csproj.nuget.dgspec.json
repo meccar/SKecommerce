@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tungdoan/Documents/SKecommerce/Source/SKecommerce.Core.Shared/SKecommerce.Core.Shared.csproj": {}
+  },
+  "projects": {
+    "/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Domain/SKecommerce.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Domain/SKecommerce.Core.Domain.csproj",
+        "projectName": "SKecommerce.Core.Domain",
+        "projectPath": "/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Domain/SKecommerce.Core.Domain.csproj",
+        "packagesPath": "/Users/tungdoan/.nuget/packages/",
+        "outputPath": "/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/Users/tungdoan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Abp.ZeroCore": {
+              "target": "Package",
+              "version": "[9.4.2, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.13.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/tungdoan/Documents/SKecommerce/Source/SKecommerce.Core.Shared/SKecommerce.Core.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tungdoan/Documents/SKecommerce/Source/SKecommerce.Core.Shared/SKecommerce.Core.Shared.csproj",
+        "projectName": "SKecommerce.Core.Shared",
+        "projectPath": "/Users/tungdoan/Documents/SKecommerce/Source/SKecommerce.Core.Shared/SKecommerce.Core.Shared.csproj",
+        "packagesPath": "/Users/tungdoan/.nuget/packages/",
+        "outputPath": "/Users/tungdoan/Documents/SKecommerce/Source/SKecommerce.Core.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/Users/tungdoan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Domain/SKecommerce.Core.Domain.csproj": {
+                "projectPath": "/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Domain/SKecommerce.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Abp": {
+              "target": "Package",
+              "version": "[9.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

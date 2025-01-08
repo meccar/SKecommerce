@@ -10,7 +10,14 @@
     <ItemGroup>
       <Folder Include="Dtos\" />
       <Folder Include="Enums\" />
-      <Folder Include="Helpers\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Abp" Version="9.4.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\SKecommerce.Core.Domain\SKecommerce.Core.Domain.csproj" />
     </ItemGroup>
 
 </Project>

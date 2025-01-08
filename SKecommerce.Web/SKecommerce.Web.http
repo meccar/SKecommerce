@@ -1,0 +1,6 @@
+@SKecommerce.Web_HostAddress = http://localhost:5208
+
+GET {{SKecommerce.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

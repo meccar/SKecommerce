@@ -1,0 +1,102 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+*.pidb
+*.booproj
+*.sln.*
+*.userprefs
+
+# Visual Studio specific files
+.vscode/
+.vs/
+.history/
+
+# Rider and IntelliJ-based IDEs
+.idea/
+*.iml
+
+# Build Results
+*.exe
+*.dll
+*.app
+*.log
+*.apk
+*.jar
+*.vsix
+*.nupkg
+*.snupkg
+*.dylib
+*.lib
+*.ipr
+*.iws
+
+# Debug and Release Folders
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]pplication[ _]Insights/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.stackdump
+desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+*.tlog
+
+# Configuration files
+appsettings*.json
+
+# NuGet Packages
+*.nupkg
+# Include if you have a packages folder in your project
+packages/
+# Exclude ReSharper files
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.sln.docstates
+
+# Publish artifacts
+publish/
+out/
+
+# Others
+*.vsconfig
+*.psess
+*.vspx
+*.vsp
+*.log
+*.trace
+*.tmh
+*.gpState
+*.gpSession
+*.hgtags
+
+# Coverlet coverage files
+coverage.opencover.xml
+coverage.cobertura.xml
+coverage.json
+lcov.info
+
+# Docker-related files
+docker-compose.override.yml
+*.dockerignore
+
+# Azure Pipeline artifacts
+artifacts/

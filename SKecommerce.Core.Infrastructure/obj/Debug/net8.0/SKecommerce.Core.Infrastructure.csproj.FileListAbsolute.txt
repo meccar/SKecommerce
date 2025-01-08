@@ -1,0 +1,12 @@
+/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Infrastructure/bin/Debug/net8.0/SKecommerce.Core.Infrastructure.deps.json
+/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Infrastructure/bin/Debug/net8.0/SKecommerce.Core.Infrastructure.dll
+/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Infrastructure/bin/Debug/net8.0/SKecommerce.Core.Infrastructure.pdb
+/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Infrastructure/obj/Debug/net8.0/SKecommerce.Core.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Infrastructure/obj/Debug/net8.0/SKecommerce.Core.Infrastructure.AssemblyInfoInputs.cache
+/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Infrastructure/obj/Debug/net8.0/SKecommerce.Core.Infrastructure.AssemblyInfo.cs
+/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Infrastructure/obj/Debug/net8.0/SKecommerce.Core.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Infrastructure/obj/Debug/net8.0/SKecommerce.Core.Infrastructure.sourcelink.json
+/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Infrastructure/obj/Debug/net8.0/SKecommerce.Core.Infrastructure.dll
+/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Infrastructure/obj/Debug/net8.0/refint/SKecommerce.Core.Infrastructure.dll
+/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Infrastructure/obj/Debug/net8.0/SKecommerce.Core.Infrastructure.pdb
+/Users/tungdoan/Documents/SKecommerce/SKecommerce.Core.Infrastructure/obj/Debug/net8.0/ref/SKecommerce.Core.Infrastructure.dll

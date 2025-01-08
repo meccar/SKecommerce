@@ -1,0 +1,6 @@
+﻿services:
+  skecommerce.web:
+    image: skecommerce.web
+    build:
+      context: .
+      dockerfile: SKecommerce.Web/Dockerfile

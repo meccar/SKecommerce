@@ -4,13 +4,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{556ABAC7-9A4C-41E5-AF88-28EDB415AA88}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = Deploy\docker-compose.yml
+		compose.yaml = compose.yaml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKecommerce.Core.Shared", "Source\SKecommerce.Core.Shared\SKecommerce.Core.Shared.csproj", "{D2D8701F-EB9B-47EC-8806-58EC2A3C1FB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKecommerce.Web.Mvc", "Source\SKecommerce.Web.Mvc\SKecommerce.Web.Mvc.csproj", "{927998E0-EC6D-4310-B1DB-30E8287B7BC4}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{7CAB9DB6-B2D3-483B-832A-8C42712E1506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKecommerce.Core.Domain", "SKecommerce.Core.Domain\SKecommerce.Core.Domain.csproj", "{38C23888-1E9F-4E67-BD3F-C4193F586E92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKecommerce.Core.Infrastructure", "SKecommerce.Core.Infrastructure\SKecommerce.Core.Infrastructure.csproj", "{BBECA696-20A2-489B-9478-8B8F5E1F733B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKecommerce.Core.Persistance", "SKecommerce.Core.Persistance\SKecommerce.Core.Persistance.csproj", "{A2C74756-F869-4D9A-8274-679197061961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKecommerce.Application", "SKecommerce.Application\SKecommerce.Application.csproj", "{1BBE1CE1-1062-47F5-AC5F-0CD0AE401DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKecommerce.Web", "SKecommerce.Web\SKecommerce.Web.csproj", "{ECCD9680-78CF-4843-8B3A-CD25B83C16F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,15 +51,35 @@ Global
 		{D2D8701F-EB9B-47EC-8806-58EC2A3C1FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2D8701F-EB9B-47EC-8806-58EC2A3C1FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2D8701F-EB9B-47EC-8806-58EC2A3C1FB7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{927998E0-EC6D-4310-B1DB-30E8287B7BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{927998E0-EC6D-4310-B1DB-30E8287B7BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{927998E0-EC6D-4310-B1DB-30E8287B7BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{927998E0-EC6D-4310-B1DB-30E8287B7BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C23888-1E9F-4E67-BD3F-C4193F586E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C23888-1E9F-4E67-BD3F-C4193F586E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C23888-1E9F-4E67-BD3F-C4193F586E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C23888-1E9F-4E67-BD3F-C4193F586E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBECA696-20A2-489B-9478-8B8F5E1F733B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBECA696-20A2-489B-9478-8B8F5E1F733B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBECA696-20A2-489B-9478-8B8F5E1F733B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBECA696-20A2-489B-9478-8B8F5E1F733B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C74756-F869-4D9A-8274-679197061961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C74756-F869-4D9A-8274-679197061961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C74756-F869-4D9A-8274-679197061961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C74756-F869-4D9A-8274-679197061961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBE1CE1-1062-47F5-AC5F-0CD0AE401DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBE1CE1-1062-47F5-AC5F-0CD0AE401DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBE1CE1-1062-47F5-AC5F-0CD0AE401DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBE1CE1-1062-47F5-AC5F-0CD0AE401DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECCD9680-78CF-4843-8B3A-CD25B83C16F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCD9680-78CF-4843-8B3A-CD25B83C16F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCD9680-78CF-4843-8B3A-CD25B83C16F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCD9680-78CF-4843-8B3A-CD25B83C16F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{61B15785-5FC9-4718-93D1-057919780DCD} = {556ABAC7-9A4C-41E5-AF88-28EDB415AA88}
 		{7A899B9D-A733-4D3A-85F4-66FFA984A886} = {556ABAC7-9A4C-41E5-AF88-28EDB415AA88}
-		{927998E0-EC6D-4310-B1DB-30E8287B7BC4} = {7CAB9DB6-B2D3-483B-832A-8C42712E1506}
 		{D2D8701F-EB9B-47EC-8806-58EC2A3C1FB7} = {7CAB9DB6-B2D3-483B-832A-8C42712E1506}
+		{38C23888-1E9F-4E67-BD3F-C4193F586E92} = {7CAB9DB6-B2D3-483B-832A-8C42712E1506}
+		{BBECA696-20A2-489B-9478-8B8F5E1F733B} = {7CAB9DB6-B2D3-483B-832A-8C42712E1506}
+		{A2C74756-F869-4D9A-8274-679197061961} = {7CAB9DB6-B2D3-483B-832A-8C42712E1506}
+		{1BBE1CE1-1062-47F5-AC5F-0CD0AE401DDA} = {7CAB9DB6-B2D3-483B-832A-8C42712E1506}
+		{ECCD9680-78CF-4843-8B3A-CD25B83C16F9} = {7CAB9DB6-B2D3-483B-832A-8C42712E1506}
 	EndGlobalSection
 EndGlobal
